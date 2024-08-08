@@ -1,0 +1,36 @@
+.tag{
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    color: #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pending{
+    background-color: #333;
+}
+.bug{
+    background-color: #c4b000;
+}
+
+.error{
+    background-color: #ff1d1d;
+}
+.update{
+    background-color: #3135ff;
+}
+.review{
+    background-color: #9495e6;
+}
+
+.finished{
+    background-color: #017524;
+}

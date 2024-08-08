@@ -1,0 +1,118 @@
+.card{
+    width: 100%-12px;
+    max-height: fit-content;
+    background-color: #e4e4e4;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.75);
+    margin: 6px;
+    padding: 12px 12px;
+    border-radius: 6px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: transform 0.2s ease;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+
+.card:active{
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    z-index: 10;
+    opacity: 1;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trashIcon{
+    display: none;
+    border-radius: 100%;
+    width: 18.5px;
+    height: 20px;
+    padding-left: 2.5px;
+    padding-top: 1px;
+    fill: #333;
+    transition: transform 0.3s ease;
+}
+.card:hover .cardHeader .trashIcon{
+    display: block;
+}
+.trashIcon:hover{
+    fill: #ff3b3b;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 8px 2px;
+    color: #333;
+    font-weight: 400;
+    padding: 4px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 90% !important;
+}
+
+.cardFooter{
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.users{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+.userIcon{
+    margin: 0px 1px;
+    background-color: darkolivegreen;
+    display: inline-block;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    color: #dbdbdb;
+}
+
+.completed .title{
+    text-decoration: line-through;
+    color: #8f8f8f;
+}
+
+.completeChk{
+    margin: 8px 2px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+.completeChk:hover{
+    cursor: pointer;
+}
+.completeChk:checked{
+    accent-color: #249900;
+}

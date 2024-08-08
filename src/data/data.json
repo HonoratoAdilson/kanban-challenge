@@ -1,0 +1,135 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Adilson"
+        },
+        {
+            "id": 2,
+            "name": "João"
+        },
+        {
+            "id": 3,
+            "name": "Ana"
+        },
+        {
+            "id": 4,
+            "name": "Carlos"
+        },
+        {
+            "id": 5,
+            "name": "Gabriel"
+        },
+        {
+            "id": 6,
+            "name": "Maria"
+        },
+        {
+            "id": 7,
+            "name": "Caio"
+        },
+        {
+            "id": 8,
+            "name": "Daniel"
+        },
+        {
+            "id": 9,
+            "name": "Taís"
+        },
+        {
+            "id": 10,
+            "name": "Rafael"
+        }
+    ],
+    "cards": [
+        {
+            "title": "Coletar Feedbacks da última semana",
+            "tag": "pending",
+            "users": [
+                1,
+                8
+            ],
+            "completed": false
+        },
+        {
+            "title": "Adicionar nova unidade",
+            "tag": "update",
+            "users": [
+                3
+            ],
+            "completed": false
+        },
+        {
+            "title": "Corrigir erro de notificação por e-mail",
+            "tag": "error",
+            "users": [
+                2,
+                9
+            ],
+            "completed": false
+        },
+        {
+            "title": "Corrigir quebra da interface no mobile",
+            "tag": "bug",
+            "users": [
+                3
+            ],
+            "completed": false
+        },
+        {
+            "title": "Revisar e aprovar pull requests",
+            "tag": "review",
+            "users": [
+                4,
+                3,
+                6,
+                2,
+                8
+            ],
+            "completed": false
+        },
+        {
+            "title": "Projeto Landing Page",
+            "tag": "finished",
+            "users": [
+                2,
+                1,
+                3,
+                6
+            ],
+            "completed": true
+        }
+    ],
+    "columns": [
+        {
+            "title": "Backlog",
+            "cards": [
+                0,
+                2,
+                3
+            ]
+        },
+        {
+            "title": "Em andamento",
+            "cards": [
+                1
+            ]
+        },
+        {
+            "title": "Bloqueado",
+            "cards": []
+        },
+        {
+            "title": "Review",
+            "cards": [
+                4
+            ]
+        },
+        {
+            "title": "Concluído",
+            "cards": [
+                5
+            ]
+        }
+    ]
+}

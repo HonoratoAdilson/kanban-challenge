@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    padding: 4vh 6vh;
+    min-width: 100%;
+    min-height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 4.5vw;
+    box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #ebebeb;
+}
+
+*::-webkit-scrollbar-track:hover {
+    background-color: #d8d8d8;
+}
+
+*::-webkit-scrollbar-track:active {
+    background-color: #d8d8d8;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #333;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #464545;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #464545;
+}
